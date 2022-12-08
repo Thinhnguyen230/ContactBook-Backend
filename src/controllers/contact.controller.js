@@ -3,25 +3,25 @@ exports.create = (req, res) => {
 };
 
 exports.findAll = (req, res) => {
-    return res.send({ message: 'findAll handler' });
+    return res.send({ message:'findAll handler'});
 };
 
 exports.findOne = (req, res) => {
-    return res.send({ message: 'findOne handler' });
+    return res.send({ message:'findOne handler'});
 };
 
 exports.update = (req, res) => {
-    return res.send({ message: 'update handler' });
+    return res.send({ message:'update handler'});
 };
 
-exports.detele = (req, res) => {
-    return res.send({ message: 'delete handler' });
+exports.delete = (req, res) => {
+    return res.send({ message:'delete handler'});
 };
 
 exports.deleteAll = (req, res) => {
-    return res.send({ message: 'deleteAll handler' });
+    return res.send({ message:'deleteALL handler'});
 };
 
 exports.findAllFavorite = (req, res) => {
-    return res.send({ message: 'findAllFavorite handler' });
+    return res.send({ message:'findAllFavorite handler'});
 };
